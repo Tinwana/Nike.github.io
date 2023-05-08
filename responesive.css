@@ -59,7 +59,7 @@
         width: 100%;
     }
     .navbar__content {
-        display: none !important;
+        display: none;
         justify-content: space-between;
         width: 100vw;
         background-color: white;

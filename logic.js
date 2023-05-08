@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(){
     var viTriSlide = 0;
     const autoSlide = document.querySelectorAll('.slide-text__content');
-    const navBtn = document.querySelector('.fa-bars');
+    const navBtn = document.querySelector('.navbar .fa-bars');
     const navBarContent = document.querySelector('.navbar__content');
     let boolBtn = false;
     function autoShowSlide(){
