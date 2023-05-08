@@ -22,7 +22,7 @@ navBtn.onclick = ()=>{
                 boolBtn = false;
         }
         else{
-                navBarContent.style.display = 'flex';
+                navBarContent.style.display = ' flex';
                 boolBtn = true;
 
         }

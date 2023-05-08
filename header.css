@@ -20,15 +20,14 @@
     background-color: var(--header);
     position: relative;
 }
-.header-nav img{
-    position: absolute;
+.header-nav img {
     left: 3vw;
     width: 24px;
     min-width: 10px;
     height: 24px;
     min-height: 10px;
     cursor: pointer;
-    
+    margin-left: 3vw;
 }
 .header-nav img:hover{
     opacity: .7;

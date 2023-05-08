@@ -7,14 +7,7 @@
 *{
     box-sizing: border-box;
 }
-.header{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
+
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -24,14 +17,13 @@
     background-color: var(--header);
     position: relative;
 }
-.header-nav img{
-    position: absolute;
-    left: 3rem;
+.header-nav img {
     width: 24px;
+    min-width: 10px;
     height: 24px;
-    top:5px;
+    min-height: 10px;
     cursor: pointer;
-    
+    margin-left: 3vw;
 }
 .header-nav a img:hover{
     opacity: .7;
@@ -62,7 +54,7 @@
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    position: relative;
+    flex-wrap: nowrap;
 }
 .navbar .logo{
     left: 3rem;
@@ -128,3 +120,4 @@ input[type="text"]::placeholder{
     color:rgb(163, 163, 163);
     font-size: 1.2em;
 }
+
