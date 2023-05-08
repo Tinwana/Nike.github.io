@@ -123,3 +123,41 @@ input[type="text"]::placeholder{
     color:rgb(163, 163, 163);
     font-size: 1.2em;
 }
+.game__show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.game__show > i , .game__show > a {
+    text-decoration: none;
+    color: #111111;
+    padding: 1rem;
+    animation: colorEf 1s linear infinite;
+}
+.game__show > i {
+    animation: arrowEf .5s linear infinite;
+}
+@keyframes arrowEf{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes colorEf{
+    0%{
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    to{
+        color: red;
+    }
+}
