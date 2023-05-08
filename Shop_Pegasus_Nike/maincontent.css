@@ -12,19 +12,11 @@
     gap:20px;
     position: relative;
 }
-.first_content_img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap:10px;
+.Product_img >img{
+    width: 100%;
 }
-.Product_img img{
-   width:410px;
-   margin: 20px 0 0 0;
-}
-.justify_text{
-    line-height: 2;
-}
+
+
 .justify_text_value{
     line-height: 4;
 }
