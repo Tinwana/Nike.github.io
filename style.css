@@ -61,10 +61,7 @@
     width: 95%;
     position: relative;
 }
-.navbar i {
-    position: relative;
-    right: 0;
-}
+
 .navbar .logo{
     left: 3vw;
     width: 80px;
@@ -193,6 +190,9 @@ input[type="text"]::placeholder{
     }
     
 }
+.hidden{
+    display: none;
+}
 @media (max-width: 739px) {
     .introduce__content{
         width: 100%;
@@ -215,7 +215,6 @@ input[type="text"]::placeholder{
     }
     .hidden{
         display: block;
-        opacity: 1;
     }
     .navbar{
         position: relative;
@@ -228,8 +227,8 @@ input[type="text"]::placeholder{
         background-color: white;
         padding: 1rem 3rem 1rem 1rem;
         position: absolute;
-        bottom: -90%;
-        left: 0;
+        bottom: -79%;
+        left: -15px;
     }
     .navbar {
         padding: 1rem;
@@ -437,11 +436,6 @@ input[type="text"]::placeholder{
   
   .footer--info  ul  li:not(:first-child){
     line-height: 2;
-  }
-  .hidden
-  {
-    display: none;
-    opacity: 0;
   }
   .footer--contact{
     width: 100%;
@@ -708,7 +702,6 @@ li a p{
 }
 .row{
     display: flex;
-    padding: 0 100px 0 100px;
 }
 
 .col-3{
@@ -800,10 +793,7 @@ button:hover {
     color:#111;
   }
   
-.justify_column{
-  position: relative;
-  top:2rem;
-}
+
 
   .center_menu {
     display: flex;
@@ -949,9 +939,7 @@ button:hover {
     opacity: .7;
 }
 .navbar__content{
-    display: flex;
     align-items: center;
-    margin-left: 18%;
     gap: 1.2rem;
     font-size: 1.05rem;
     cursor: pointer;
@@ -965,18 +953,6 @@ button:hover {
 .search__box{
     position: relative;
     padding-left: 36px;
-}
-.search__box i{
-    position: absolute;
-    left: 75%;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.2rem;
-}
-.search__box i:hover{
-    border-radius: 50%;
-    background-color: var(--footerText);
-    box-shadow: 0 0 0 8px var(--footerText);
 }
 .navbar__item li i.fa-heart, .navbar__item li i.fa-shopping-bag{
     font-size:1.3rem;
@@ -1002,9 +978,6 @@ input[type="text"]:focus{
 input[type="text"]::placeholder{
     color:rgb(163, 163, 163);
     font-size: 1.2em;
-}
-.justify_body{
-    margin-left: 3rem;
 }
 .first_content{
     height: 100px;
